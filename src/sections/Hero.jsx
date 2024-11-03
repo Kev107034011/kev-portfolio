@@ -23,7 +23,7 @@ const Hero = () => {
     const sizes = calculateSizes(isSmall, isMobile, isTablet, isShortScreen)
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
                     Hi, I'm Kev<span className="waving-hand" style={{ marginRight: '20px' }}>👋</span>
@@ -51,12 +51,13 @@ const Hero = () => {
                         <ambientLight intensity={1} />
                         <directionalLight intensity={3} position={[10, 10, 10]} />
                         {/* Enable OrbitControls */}
-                        <OrbitControls 
-                        enableZoom 
-                        enableRotate 
-                        minPolarAngle={Math.PI / 4}   // Restrict vertical rotation
-                        maxPolarAngle={Math.PI / 1.5}   // Prevent looking underneath
-                       />
+                        <OrbitControls
+                            enableZoom
+                            enableRotate
+                            enablePan={false}
+                            minPolarAngle={Math.PI / 4}   // Restrict vertical rotation
+                            maxPolarAngle={Math.PI / 1.8}   // Prevent looking underneath
+                        />
                         <group>
                             <CoffeeMachine
                                 position={sizes.coffeeMachinePosition}
@@ -68,9 +69,10 @@ const Hero = () => {
                         </group>
                     </Suspense>
                 </Canvas>
-                <div className="absolute bottom-0 left-0 right-0 w-full z-10 c-space">
-                    <a href="#contact" className="w-fit"></a>
-                    <Button name="Let's see more detail" isBeam containerClass="sm:w-fit w-full sm:min-w-96 opacity-75 hover:opacity-100 transition-opacity duration-300"/>
+                <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+                    <a href="#about" className="w-fit">
+                        <Button name="Let's see more detail" isBeam containerClass="sm:w-fit w-full sm:min-w-96 opacity-75 hover:opacity-100 transition-opacity duration-300" />
+                    </a>
                 </div>
             </div>
         </section>
