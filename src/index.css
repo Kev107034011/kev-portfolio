@@ -106,11 +106,40 @@ body {
 
   .work-canvas {
     @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+    height: 500px; /* Set a fixed height */
   }
 
   .work-content {
     @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    max-height: 500px; /* Match height of .work-canvas for consistent layout */
+    overflow-y: auto; /* Enable scroll for overflow */
   }
+
+  /* Style the scrollbar */
+.work-content::-webkit-scrollbar {
+  width: 8px; /* Adjust width as needed */
+}
+
+.work-content::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Track color, matching your background */
+}
+
+.work-content::-webkit-scrollbar-thumb {
+  background-color: #555; /* Scrollbar thumb color */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #1f1f1f; /* Adds padding around the thumb */
+}
+
+.work-content::-webkit-scrollbar-thumb:hover {
+  background-color: #777; /* Lighter color when hovering */
+}
+
+/* Firefox scrollbar styles */
+.work-content {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #555 #1f1f1f; /* Thumb and track color */
+}
+
 
   .work-content_container {
     @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
