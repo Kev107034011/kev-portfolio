@@ -43,7 +43,6 @@ const Experience = () => {
                                     <div className="sm:p-5 px-2.5 py-5">
                                         <p className="font-bold text-white-800">{name}</p>
                                         <p className="text-sm mb-5">{pos} -- {duration}</p>
-
                                         {/* Render title as a list */}
                                         <ul className="group-hover:text-white transition ease-in-out duration-500 list-disc list-inside">
                                             {title.map((item, index) => (
@@ -54,11 +53,8 @@ const Experience = () => {
                                 </div>
                             ))}
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </section>
     )

@@ -56,11 +56,22 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="xl:col-span-1 xl:row-span-2">
+                <div className="xl:col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-contain sm:object-top" />
+                        <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[266px] sm:h-[266px] h-fit object-contain sm:object-top" />
                         <div className="space-y-2">
                             <p className="grid-headtext text-center">My Contact Info</p>
+                            <div className="flex gap-3 justify-center">
+                                <a href="https://www.linkedin.com/in/syuanyi0529/" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                    <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
+                                </a>
+                                <a href="https://github.com/Kev107034011" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                    <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+                                </a>
+                                <a href="https://www.instagram.com/kevinleeyee/profilecard/?igsh=cWY2dzQ2bzZqNmxs" target="_blank" rel="noopener noreferrer" className="social-icon">
+                                    <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+                                </a>
+                            </div>
                             <div className="copy-container" onClick={handleCopy}>
                                 {/* <p className="lg:text-sm md:text-xs font-medium text-gray_gradient text-white">Email: iuhfyi25282135@gmail.com</p> */}
                                 <p className="grid-subtext">Email: iuhfyi25282135@gmail.com</p>

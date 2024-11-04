@@ -266,7 +266,10 @@ export const workExperiences = [
     name: 'Intel Corporation',
     pos: 'Software Engineer',
     duration: 'Oct. 2024 - Present',
-    title: ["Web app "],
+    title: ["Web tools develpment with Flask and Dash featuring interactive querying and poka-yoke safeguards to ensure accurate data entry and data integrity maintenance within SQL database.",
+      "ETL/ELT pipeline setup with on-premise servers and Azure infrastructure, including Azure Data Factory (ADF), Azure Databricks, SQL Server, and Python web scraping scripts.",
+      "Early Warning System (EWS) research on time-series data analysis regarding Assembly/Test process data stream."
+    ],
     icon: '/assets/intel.svg',
     animation: 'salute',
   },
@@ -280,7 +283,7 @@ export const workExperiences = [
       "Developed PowerBI dashboards to assist in outsourcing decisions and yield monitoring."
     ],
     icon: '/assets/intel.svg',
-    animation: 'clapping',
+    animation: 'salute',
   },
   {
     id: 3,
@@ -292,18 +295,39 @@ export const workExperiences = [
       "Evaluated Concept Drift and Small Sample issues within data stream."
     ],
     icon: '/assets/auo.svg',
-    animation: 'taunt',
+    animation: 'clapping',
   },
   {
     id: 4,
     name: 'KINIK Company',
-    pos: 'WMA CD BIAS Prediction (Contractor)',
-    duration: 'Jun. 2022 - Oct. 2023',
-    title: ["Led data science team and negotiated with the company to define and solve problems in production data.",
-      "Built virtual metrology (VM) models to reduce time and cost for etching to achieve advanced process control (APC).",
-      "Evaluated Concept Drift and Small Sample issues within data stream."
+    pos: 'Grinding Wheel Spec Recommendation System (Contractor)',
+    duration: 'Jun. 2022 - Jun. 2023',
+    title: ["Customized AutoML modules to build, deploy and manage prediction models.",
+      "Responsible for Backend Development by using Django(Python) to construct web system."
     ],
     icon: '/assets/kinik.png',
-    animation: 'taunt',
-  },  
+    animation: 'victory',
+  },
+  {
+    id: 5,
+    name: 'Taiwan High Speed Rail Corporation',
+    pos: 'Insulator Contamination Research (Contractor)',
+    duration: 'Jun. 2022 - Jul. 2023',
+    title: ["Quantitative and qualitative research to evaluate the severance of insulator contamination and establish sampling plan based on Statistics",
+      "Visualized risky patterns of insulators in different areas of Taiwan to improve original maintenance measure."
+    ],
+    icon: '/assets/thsr.jpg',
+    animation: 'victory',
+  },
+  {
+    id: 6,
+    name: 'Artificial Intelligence for Intelligent Manufacturing Systems Research Center (AIMS)',
+    pos: 'Data Scientist Intern',
+    duration: 'Jun. 2022 - Oct. 2023',
+    title: ["Decreased troubleshooting time from weeks to minutes by extracting experts’ knowledge in recovering abnormal probe card.",
+      "Increased one-shot troubleshooting chance from 10% to 37%, compared with traditional Bayesian Method by developing “Multi-Label Bayesian Network” algorithm."
+    ],
+    icon: '/assets/aims.jpg',
+    animation: 'victory',
+  },
 ];
