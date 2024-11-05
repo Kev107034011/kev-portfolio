@@ -13,7 +13,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     const { animations: saluteAnimation } = useFBX('/models/animations/reference/salute.fbx')
     const { animations: clappingAnimation } = useFBX('/models/animations/reference/clapping.fbx')
     const { animations: victoryAnimation } = useFBX('/models/animations/reference/victory.fbx')
-    const { animations: tauntAnimation } = useFBX('/models/animations/taunt.fbx')
 
 
 
@@ -21,10 +20,9 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     saluteAnimation[0].name = 'salute'
     clappingAnimation[0].name = 'clapping'
     victoryAnimation[0].name = 'victory'
-    tauntAnimation[0].name = 'taunt'
 
     const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0],
-    clappingAnimation[0], victoryAnimation[0], tauntAnimation[0]], group)
+    clappingAnimation[0], victoryAnimation[0]], group)
 
     useEffect(() => {
         actions[animationName].reset().fadeIn(0.5).play()

@@ -22,7 +22,7 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">About Me</p>
-                            <p className="grid-subtext">I'm a Data Scientist/Analyst with 3 years of experience in the semiconductor industry, dedicated to improving efficiency and quality through data-driven insights.</p>
+                            <p className="grid-subtext">I'm a Data Scientist/Analyst/Engineer with 3 years of experience in the semiconductor industry, dedicated to improving efficiency and quality through data-driven insights.</p>
                         </div>
                     </div>
                 </div>

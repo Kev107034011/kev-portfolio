@@ -306,13 +306,13 @@ export const workExperiences = [
       "Responsible for Backend Development by using Django(Python) to construct web system."
     ],
     icon: '/assets/kinik.png',
-    animation: 'victory',
+    animation: 'clapping',
   },
   {
     id: 5,
     name: 'Taiwan High Speed Rail Corporation',
     pos: 'Insulator Contamination Research (Contractor)',
-    duration: 'Jun. 2022 - Jul. 2023',
+    duration: 'Jan. 2022 - Aug. 2022',
     title: ["Quantitative and qualitative research to evaluate the severance of insulator contamination and establish sampling plan based on Statistics",
       "Visualized risky patterns of insulators in different areas of Taiwan to improve original maintenance measure."
     ],
@@ -323,7 +323,7 @@ export const workExperiences = [
     id: 6,
     name: 'Artificial Intelligence for Intelligent Manufacturing Systems Research Center (AIMS)',
     pos: 'Data Scientist Intern',
-    duration: 'Jun. 2022 - Oct. 2023',
+    duration: 'Jul. 2021 - Aug. 2022',
     title: ["Decreased troubleshooting time from weeks to minutes by extracting experts’ knowledge in recovering abnormal probe card.",
       "Increased one-shot troubleshooting chance from 10% to 37%, compared with traditional Bayesian Method by developing “Multi-Label Bayesian Network” algorithm."
     ],
