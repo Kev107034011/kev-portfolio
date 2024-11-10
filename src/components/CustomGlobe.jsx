@@ -13,9 +13,10 @@ const CustomGlobe = () => {
         const countryLocation = {
             lat: selectedCountry.lat,
             lng: selectedCountry.lng,
-            altitude: 1.5
+            altitude: 1.5,
         };
         globeEl.current.pointOfView(countryLocation, 0);
+        globeEl.current.controls().autoRotate = true;
     }, [selectedCountry]);
 
     return (

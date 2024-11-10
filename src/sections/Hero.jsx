@@ -29,7 +29,7 @@ const Hero = () => {
                     Hi, I'm Kev<span className="waving-hand" style={{ marginRight: '20px' }}>👋</span>
                     I have <span className="font-bold">3<sup>+</sup></span> years of experience as
                 </p>
-                <p className="hero_tag text-gray_gradient">Data Analyst | Scientist | Engineer</p>
+                <p className="hero_tag text-gray_gradient">Data Analyst | Scientist </p>
                 <p className="text-center text-yellow-200 text-base">... and learn Web Development & Brewing Coffee for fun :D</p>
             </div>
 

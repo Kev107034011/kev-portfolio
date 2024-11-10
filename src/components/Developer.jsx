@@ -11,18 +11,16 @@ const Developer = ({ animationName = 'idle', ...props }) => {
 
     const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx')
     const { animations: saluteAnimation } = useFBX('/models/animations/reference/salute.fbx')
+    const { animations: lookingAroundAnimation } = useFBX('/models/animations/pushingButton.fbx')
     const { animations: clappingAnimation } = useFBX('/models/animations/reference/clapping.fbx')
-    const { animations: victoryAnimation } = useFBX('/models/animations/reference/victory.fbx')
-
 
 
     idleAnimation[0].name = 'idle'
     saluteAnimation[0].name = 'salute'
+    lookingAroundAnimation[0].name = 'lookingAround'
     clappingAnimation[0].name = 'clapping'
-    victoryAnimation[0].name = 'victory'
 
-    const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0],
-    clappingAnimation[0], victoryAnimation[0]], group)
+    const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0], clappingAnimation[0]], group)
 
     useEffect(() => {
         actions[animationName].reset().fadeIn(0.5).play()

@@ -317,7 +317,7 @@ export const workExperiences = [
       "Visualized risky patterns of insulators in different areas of Taiwan to improve original maintenance measure."
     ],
     icon: '/assets/thsr.jpg',
-    animation: 'victory',
+    animation: 'clapping',
   },
   {
     id: 6,
@@ -328,6 +328,37 @@ export const workExperiences = [
       "Increased one-shot troubleshooting chance from 10% to 37%, compared with traditional Bayesian Method by developing “Multi-Label Bayesian Network” algorithm."
     ],
     icon: '/assets/aims.jpg',
-    animation: 'victory',
+    animation: 'clapping',
+  },
+];
+
+export const educationBackground = [
+  {
+    id: 1,
+    name: 'National Tsing Hua University',
+    pos: "Master's Degree, Industrial Engineering and Engineering Management",
+    duration: 'Sep. 2022 - Aug. 2024',
+    title: ["GPA: 4.30 / 4.30",
+      "Honorary Member of the Phi Tau Phi Scholastic Honor Society"
+    ],
+    icon: '/assets/nthu.jpg',
+  },
+  {
+    id: 2,
+    name: 'National Tsing Hua University',
+    pos: "Master's Degree, Industrial Engineering and Engineering Management",
+    duration: 'Sept. 2018 - Jun. 2022',
+    title: ["GPA: 3.71 / 4.30",
+      'Circular Economy Club & Coffee Club'
+    ],
+    icon: '/assets/nthu.jpg',
+  },
+  {
+    id: 3,
+    name: 'Nanyang Technological University Singapore',
+    pos: "Bachelor Exchange Program , Computer Science, Business",
+    duration: 'Jan. 2022 - May. 2022',
+    title: [],
+    icon: '/assets/ntu.svg',
   },
 ];
