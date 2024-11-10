@@ -21,16 +21,16 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">About Me</p>
-                            <p className="grid-subtext">I'm a Data Scientist/Analyst with 3 years of experience in the semiconductor industry, dedicated to improving efficiency and quality through data-driven insights.</p>
+                            <p className="grid-subtext">I'm a Data Scientist | Analyst with 3 years of experience in the semiconductor industry, dedicated to improving efficiency and quality through data-driven insights.</p>
                         </div>
                     </div>
                 </div>
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="/assets/robot.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain border-4 rounded-lg border-black-500" />
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">Skilled in Python, SQL, PowerBI, Statistics, Machine Learning, full-stack development (Django, Flask, React, Tailwind.css, Bootstrap Html, javascript, css) and well-versed in team work and Agile methodologies, including Scrum and Git.</p>
+                            <p className="grid-subtext">Skilled in Python, SQL, PowerBI, Statistics, Machine Learning, full-stack development (Django, Flask, React.js, Tailwind CSS, Bootstrap, Html, JavaScript, CSS) and well-versed in team work and Agile methodologies, including Scrum and Git.</p>
                         </div>
                     </div>
                 </div>
