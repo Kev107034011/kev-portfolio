@@ -61,7 +61,7 @@ const Hero = () => {
                         <group>
                             <CoffeeMachine
                                 position={sizes.coffeeMachinePosition}
-                                scale={8.4}
+                                scale={7.5}
                                 rotation={[0, -0.8, -0.4]} />
                             <ReactLogo position={sizes.reactLogoPosition} />
                             <PythonLogo position={sizes.pythonPosition} />
