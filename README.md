@@ -1,8 +1,9 @@
-# React + Vite
+# Your Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is built based on this [tutorial](https://www.youtube.com/watch?v=kt0FrkQgw8w) with some customizations to conclude more information and preferred style. 
+E.g., Scrollable Job Experience, Educational Background, Rotating Globe with Pin, etc.
 
-Currently, two official plugins are available:
+For deployment portion, since it's a static page, I endorse Vercel for free hosting & domain.
+[My Website](https://kev-portfolio-kev107034011s-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feel free to fork & create your own personal portfolio now! :)
