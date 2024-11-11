@@ -154,7 +154,7 @@ export const workExperiences = [
     name: 'Intel Corporation',
     pos: 'Software Engineer',
     duration: 'Oct. 2024 - Present',
-    title: ["Web tools develpment with Flask and Dash featuring interactive querying and poka-yoke safeguards to ensure accurate data entry and data integrity maintenance within SQL database.",
+    title: ["Web tools development with Flask and Dash featuring interactive querying and poka-yoke safeguards to ensure accurate data entry and data integrity maintenance within SQL database.",
       "ETL/ELT pipeline setup with on-premise servers and Azure infrastructure, including Azure Data Factory (ADF), Azure Databricks, SQL Server, and Python web scraping scripts.",
       "Early Warning System (EWS) research on time-series data analysis regarding Assembly/Test process data stream."
     ],
@@ -234,7 +234,7 @@ export const educationBackground = [
   {
     id: 2,
     name: 'National Tsing Hua University',
-    pos: "Master's Degree, Industrial Engineering and Engineering Management",
+    pos: "Bachelor's Degree, Industrial Engineering and Engineering Management",
     duration: 'Sept. 2018 - Jun. 2022',
     title: ["GPA: 3.71 / 4.30",
       'Circular Economy Club & Coffee Club'
