@@ -113,7 +113,7 @@ const Hero = () => {
                         </group>
                     </Suspense>
                 </Canvas>
-                <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+                <div className={`absolute ${isMobile ? 'bottom-20' : 'bottom-4'} left-0 right-0 w-full z-10 c-space`}>
                     <a href="#about" className="w-fit">
                         <Button name="Let's see more detail" isBeam containerClass="sm:w-fit w-full sm:min-w-96 opacity-75 hover:opacity-100 transition-opacity duration-300" />
                     </a>
