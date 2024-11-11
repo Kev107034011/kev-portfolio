@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
                     Hi, I'm Kev<span className="waving-hand" style={{ marginRight: '20px' }}>👋</span>
-                    I have <span className="font-bold">3<sup>+</sup></span> years of experience as
+                    I have <span className="font-bold">2<sup>+</sup></span> years of experience as
                 </p>
                 <p className="hero_tag text-gray_gradient">Data Analyst | Scientist </p>
                 <p className="text-center text-yellow-200 text-base">... and learn Web Development & Brewing Coffee for fun :D</p>
