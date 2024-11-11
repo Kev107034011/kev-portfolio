@@ -7,12 +7,12 @@ Title: Munchkin Cat
 */
 
 import React, { useRef } from 'react'
-import { useGLTF, useAnimations } from '@react-three/drei'
+import { useGLTF} from '@react-three/drei'
 
 export function Cat(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/import-models/cat/scene.gltf')
-  const { actions } = useAnimations(animations, group)
+  const { nodes, materials} = useGLTF('/models/import-models/cat/scene.gltf')
+ 
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">

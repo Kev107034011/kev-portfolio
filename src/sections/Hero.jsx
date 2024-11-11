@@ -7,13 +7,14 @@ import { calculateSizes } from "../constants";
 // import { Leva, useControls } from "leva";
 
 import { HackerRoom } from "../components/HackerRoom";
-import { Cat } from "../components/Cat";
+// import { Cat } from "../components/Cat";
 import ReactLogo from "../components/ReactLogo";
 import Cube from "../components/Cube";
 import CoffeeMachine from "../components/CoffeeMachine";
 import PythonLogo from "../components/PythonLogo";
 import HeroCamera from "../components/HeroCamera";
 import Button from "../components/Button";
+import SmallCat from "../components/SmallCat";
 
 const Hero = () => {
     const isSmall = useMediaQuery({ maxWidth: 440 })
@@ -21,6 +22,45 @@ const Hero = () => {
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 })
     const isShortScreen = useMediaQuery({ maxHeight: 900 })
     const sizes = calculateSizes(isSmall, isMobile, isTablet, isShortScreen)
+
+    // Adjust Location iwth Leva
+    // const x = useControls('SmallCat', {
+    //     positionX: {
+    //         value: 2.5,
+    //         min: -10,
+    //         max: 10
+    //     },
+    //     positionY: {
+    //         value: 2.5,
+    //         min: -10,
+    //         max: 10
+    //     },
+        //     rotationX: {
+    //         value: 0,
+    //         min: -10,
+    //         max: 10
+    //     },
+    //     positionZ: {
+    //         value: 2.5,
+    //         min: -10,
+    //         max: 10
+    //     },
+    //     rotationY: {
+    //         value: 0,
+    //         min: -10,
+    //         max: 10
+    //     },
+    //     rotationZ: {
+    //         value: 0,
+    //         min: -10,
+    //         max: 10
+    //     },
+    //     scale: {
+    //         value: 1,
+    //         min: 0.1,
+    //         max: 30
+    //     }
+    // })
 
     return (
         <section className="min-h-screen w-full flex flex-col relative" id="home">
@@ -42,10 +82,14 @@ const Hero = () => {
                                 position={sizes.deskPosition}
                                 rotation={[0.3, -Math.PI, 0]}
                                 scale={sizes.deskScale} />
-                            <Cat
+                            {/* <Cat
                                 position={sizes.catPosition}
                                 rotation={[1.1, 0, 0]}
-                                scale={6.5} />
+                                scale={6.5} /> */}
+                            <SmallCat
+                                position={sizes.smallCatPosition}
+                                rotation={[0.3, 0, 0]}
+                                scale={6.7} />
                         </HeroCamera>
                         <PerspectiveCamera makeDefault position={[0, 0, 23]} />
                         <ambientLight intensity={1} />
